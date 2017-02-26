@@ -1,5 +1,10 @@
 {
+  // Set to false to disable gocode autocompletion.
   "show_completions": true,
+
+  // Set to false to disable signature help when hovering with the mouse.
   "show_signatures_hover": true,
+
+  // Set to false to disable signature help when typing a function call.
   "show_signatures_paren": true
 }

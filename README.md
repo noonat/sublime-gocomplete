@@ -14,7 +14,7 @@ This plugin has the following settings:
   "show_completions": true,
 
   // Set to false to disable signature help when hovering with the mouse.
-  "show_signatures_hover": false,
+  "show_signatures_hover": true,
 
   // Set to false to disable signature help when typing a function call.
   "show_signatures_paren": true
@@ -44,6 +44,6 @@ If you *only* want completion after dot, you can also add this:
 // User/Preferences.sublime-settings or User/Go.sublime-settings
 {
   // ...
-  "auto_complete_selector": "-","
+  "auto_complete_selector": "-"
 }
 ```
