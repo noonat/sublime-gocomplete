@@ -1,0 +1,10 @@
+[
+  {
+    "keys": ["("],
+    "command": "gocode_signature_popup",
+    "context": [
+      {"key": "selector", "operator": "equal", "operand": "source.go"},
+      {"key": "paren_pressed"}
+    ]
+  }
+]
