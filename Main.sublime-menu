@@ -10,20 +10,20 @@
         "id": "package-settings",
         "children": [
           {
-            "caption": "Gocode",
+            "caption": "Gocomplete",
             "children": [
               {
                 "caption": "Settings – Default",
                 "command": "open_file",
                 "args": {
-                  "file": "${packages}/Gocode/Gocode.sublime-settings"
+                  "file": "${packages}/Gocomplete/Gocomplete.sublime-settings"
                 },
               },
               {
                 "caption": "Settings – User",
                 "command": "open_file",
                 "args": {
-                  "file": "${packages}/User/Gocode.sublime-settings"
+                  "file": "${packages}/User/Gocomplete.sublime-settings"
                 },
               },
               {

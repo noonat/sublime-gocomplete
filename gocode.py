@@ -51,7 +51,7 @@ settings = None
 
 def plugin_loaded():
     global settings
-    settings = sublime.load_settings('Gocode.sublime-settings')
+    settings = sublime.load_settings('Gocomplete.sublime-settings')
 
 
 class GoCommand(object):
@@ -162,10 +162,10 @@ def show_signature(view, point, flags):
     view.show_popup(html, flags=flags, location=point, max_width=600)
 
 
-class GocodeListener(sublime_plugin.EventListener):
+class GocompleteListener(sublime_plugin.EventListener):
 
     def __init__(self, *args, **kwargs):
-        super(GocodeListener, self).__init__(*args, **kwargs)
+        super(GocompleteListener, self).__init__(*args, **kwargs)
         self.paren_pressed_point = None
 
     def on_query_completions(self, view, prefix, locations):

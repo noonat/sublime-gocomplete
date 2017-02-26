@@ -1,8 +1,23 @@
-# Sublime Gocode
+# Sublime Gocomplete
 
 This Sublime Text 3 package adds support for code completions and function
-signatures using gocode and godocget. It cooperates with Sublime Text's
+signatures using gocode and gogetdoc. It cooperates with Sublime Text's
 autocompletion system.
+
+## Dependencies
+
+Before you can use this, you'll need to install gocode and gogetdoc:
+
+```
+go get -u github.com/nsf/gocode
+go get -u github.com/zmb3/gogetdoc
+```
+
+This package also uses [golangconfig] to discover paths and environment
+variables related to Golang. It is installed automatically for you when you
+install this package via Package Control.
+
+[golangconfig]: http://github.com/golang/sublime-config
 
 ## Settings
 
